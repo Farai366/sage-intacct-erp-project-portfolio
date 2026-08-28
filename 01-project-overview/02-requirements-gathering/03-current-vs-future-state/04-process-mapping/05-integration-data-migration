@@ -2,3 +2,50 @@
    ├── data-migration-plan.md
    ├── integration-scope.md
    └── migration-mapping.csv
+# Data Migration Plan
+
+## Purpose
+Define the scope, approach, and responsibilities for migrating data into Sage Intacct.
+
+---
+
+## Source Systems
+- Legacy ERP: [Name]
+- CRM: [Name]
+- Payroll: [Name]
+- Other: [Name]
+
+---
+
+## Migration Scope
+| Module            | Data to Migrate         | Source System | Notes |
+|-------------------|-------------------------|---------------|-------|
+| General Ledger    | Chart of Accounts       | Legacy ERP    |       |
+| Accounts Payable  | Vendor Master           | Legacy ERP    |       |
+| Accounts Receivable | Customer Master       | CRM           |       |
+| Cash Management   | Bank Accounts           | Legacy ERP    |       |
+| Purchasing        | Open Purchase Orders    | Legacy ERP    |       |
+| Order Entry       | Open Sales Orders       | CRM           |       |
+
+---
+
+## Approach
+- **Extract**: Pull data from source systems.
+- **Transform**: Cleanse and map to Intacct fields.
+- **Load**: Import into Sage Intacct.
+- **Validate**: Reconcile totals and balances.
+
+---
+
+## Cutover Plan
+- Migration dry run: [Date]
+- Final migration: [Date]
+- Validation window: [Date]
+- Go-live: [Date]
+
+---
+
+## Responsibilities
+- Finance Team: Validate balances
+- IT Team: Extract and load data
+- Project Manager: Track milestones
