@@ -15,3 +15,15 @@ flowchart LR
     D --> E[Payment Run]
     E --> F[Bank Integration]
     F --> G[Vendor Paid]
+flowchart LR
+    A[Customer Order] --> B[Invoice Generation]
+    B --> C[Revenue Recognition]
+    C --> D[Collections Tracking]
+    D --> E[Cash Receipt]
+    E --> F[Bank Reconciliation]
+flowchart LR
+    A[Transaction Entry] --> B[Reconciliations]
+    B --> C[Adjusting Journals]
+    C --> D[Review & Approval]
+    D --> E[Financial Reporting]
+    E --> F[Close Period]
