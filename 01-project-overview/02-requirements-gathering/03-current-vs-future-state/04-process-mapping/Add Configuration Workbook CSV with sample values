@@ -1,0 +1,22 @@
+Module,Configuration Area,Decision/Value,Notes
+General Ledger,Chart of Accounts,4-digit structure,Departments tracked via dimensions
+General Ledger,Account Groups,Revenue/Expense/Balance Sheet,Used for reporting consolidation
+General Ledger,Reporting Periods,Monthly,Standard monthly close cycle
+General Ledger,Currency Setup,ZAR (base),USD/EUR enabled for consolidation
+Accounts Payable,Vendor Categories,Local/International,Split for tax compliance
+Accounts Payable,Approval Workflows,2-level approval,Manager + Finance
+Accounts Payable,Payment Terms,Net 30,Standard vendor terms
+Accounts Payable,Default Accounts,2000-AP Control,Linked to GL
+Accounts Receivable,Customer Categories,Corporate/SME,Used for reporting
+Accounts Receivable,Invoice Templates,Standard + Project,Project billing requires separate layout
+Accounts Receivable,Collections Rules,Reminder at 15 days,Escalation at 30 days
+Accounts Receivable,Default Accounts,1200-AR Control,Linked to GL
+Cash Management,Bank Accounts,Standard + Foreign,Foreign accounts for USD/EUR
+Cash Management,Reconciliation Rules,Auto-match enabled,Manual review for exceptions
+Cash Management,Cash Application,Apply by invoice,Standard practice
+Purchasing,Approval Levels,Manager + CFO,High-value purchases require CFO
+Purchasing,Expense Accounts,5000-Operating Expenses,Default for P2P
+Purchasing,Vendor Assignment,By category,Local vs International split
+Order Entry,Order Types,Standard + Subscription,Subscription requires deferred revenue
+Order Entry,Pricing Rules,Standard + Volume discount,Discounts applied for bulk orders
+Order Entry,Revenue Recognition,By delivery,Subscription recognized monthly
