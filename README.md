@@ -11,6 +11,12 @@ actually carry out.
 > issues, same people) so the material reads as one coherent case study rather than a set of
 > disconnected templates.
 
+> **Folder numbering note:** This repo combines two companion packages as sibling folders at the
+> root. Each package numbers its own folders independently (both start at 00/01), so on GitHub's
+> alphabetical file listing they interleave — e.g. `01-Company-Entity-Setup` (Setup Package) sits
+> next to `01-Project-Overview` (Portfolio). Use the two tables below to tell which folder belongs
+> to which package.
+
 ## Scenario
 
 Meridian Fabrication Group (MFG) is an $85M custom metal fabrication and light-assembly
@@ -20,11 +26,7 @@ anticipated 2027 private equity investment. The project — "Project Ignite" —
 (January 12, 2026) through go-live (August 3, 2026) to post-go-live stabilization (September 2026),
 delivered by a fictional implementation partner, Elevate Consulting Partners.
 
-## Contents
-
-This repository contains two companion packages.
-
-### 1. `Project-Ignite-Sage-Intacct-ERP-Portfolio.zip`
+## Package 1: ERP Implementation Portfolio
 
 The **project delivery documentation** — 33 documents across the 11 standard phases of an ERP
 engagement.
@@ -46,7 +48,7 @@ engagement.
 **Use case:** Reference material for ERP project managers, business analysts, or consultants who
 want a realistic, end-to-end example of what a fully documented implementation looks like.
 
-### 2. `Sage-Intacct-Setup-Package-Meridian-Fabrication.zip`
+## Package 2: Sage Intacct Setup Package
 
 The **technical build companion** — a step-by-step Sage Intacct configuration and data-import
 package, written as if handed directly to an implementation consultant.
@@ -68,20 +70,20 @@ package, written as if handed directly to an implementation consultant.
 Sage Intacct — useful as an implementor's build checklist or a starting template to swap in real
 company data.
 
-Both packages should be worked through in the order listed in
+Work through the Setup Package in the order listed in
 `00-Setup-Instructions/Setup-Sequence-and-Instructions.xlsx` — later steps depend on earlier ones
 (e.g., dimensions must exist before the Chart of Accounts references them).
 
 ## How the two packages relate
 
 ```
-Project-Ignite-Sage-Intacct-ERP-Portfolio.zip   →  what happened, when, and why (delivery narrative)
-Sage-Intacct-Setup-Package-Meridian-Fabrication.zip  →  exactly what to configure and import (technical build)
+ERP Implementation Portfolio  →  what happened, when, and why (delivery narrative)
+Sage Intacct Setup Package    →  exactly what to configure and import (technical build)
 ```
 
-The delivery portfolio's Configuration Support, Data Migration, and Cutover documents describe the
-same activities the Setup Package operationalizes into concrete import files and instructions —
-read the portfolio for context, use the setup package to actually build the system.
+The Portfolio's Configuration Support, Data Migration, and Cutover documents describe the same
+activities the Setup Package operationalizes into concrete import files and instructions — read
+the Portfolio for context, use the Setup Package to actually build the system.
 
 ## File formats
 
